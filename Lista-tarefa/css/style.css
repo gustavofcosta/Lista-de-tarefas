@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: rgb(41, 39, 39);
+    font-family: 'Gluten', cursive;
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+
+.main {
+    background-color: white;
+    max-width: 640px;
+    margin: 5rem auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.main input, .adicionar {
+    margin-top: 2rem;
+}
+
+.main input {
+    font-size: 1.2rem;
+    font-family: 'Gluten', cursive;
+    padding: 0.5rem;
+}
+
+.adicionar, .apagar{
+    font-family: 'Gluten', cursive;
+    font-weight: 400;
+    padding: 0.3rem;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.adicionar:hover, .apagar:hover {
+    cursor: pointer;
+    background-color: rgb(41, 39, 39);
+    color: white;
+}
+
+.recebe-tarefa {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    text-align: left;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
